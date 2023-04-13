@@ -20,6 +20,16 @@ public class test1 {
 	names.add("Adam");
 	names.add("Asim");
 	names.add("Ram");
+	names.add("Alma");
+	names.add("Don");
+	names.add("Adam");
+	names.add("Asim");
+	names.add("Ram");
+	names.add("Alma");
+	names.add("Don");
+	names.add("Adam");
+	names.add("Asim");
+	names.add("Ram");
     int count = 0;
 	for (int i=0; i<names.size(); i++)
 		
