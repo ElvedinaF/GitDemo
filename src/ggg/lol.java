@@ -17,6 +17,8 @@ public class lol {
 		names.add("Adam");
 		names.add("Asim");
 		names.add("Ram");
+		names.add("pRam");
+		names.add("Roam");
 	    int count = 0;
 		for (int i=0; i<names.size(); i++)
 			
