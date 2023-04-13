@@ -41,4 +41,28 @@ public class lol {
 		}
 
 }
-
+@Test
+//lambda expression
+public void streamFilter()
+	{
+		
+	  ArrayList <String> names = new ArrayList<String>();
+		names.add("Alma");
+		names.add("Don");
+		names.add("Adam");
+		names.add("Asim");
+		names.add("Ram");
+	   
+		Long c = names.stream().filter(s->s.startsWith("A")).count();
+		System.out.println(c);
+		
+long d =		Stream.of("Ram","Asim","Adam","Don","Alma").filter(s->
+		{
+			s.startsWith("A");
+			return true;
+		}).count();
+		
+		System.out.println(d);
+		
+			
+}}
